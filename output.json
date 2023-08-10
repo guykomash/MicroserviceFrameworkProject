@@ -1,0 +1,170 @@
+{ 
+	"students": [ 
+ 		{
+ 			 "name": "Simba",
+ 			 "department": "Computer Science",
+ 			 "status": "MSc",
+ 			 "publication:": "0",
+ 			 "papersRead:": "2",
+ 			 "trainedModels:": [
+				{
+					"name": "YOLO10",
+					"data": {
+						"type": "Tabular",
+						"size": 200000
+					},
+					"status": "Tested",
+					"result": "Bad"
+				},
+				{
+					"name": "ResNet9000",
+					"data": {
+						"type": "Tabular",
+						"size": 200000
+					},
+					"status": "Tested",
+					"result": "Bad"
+				},
+				{
+					"name": "LessEfficientNet",
+					"data": {
+						"type": "Tabular",
+						"size": 20000
+					},
+					"status": "Tested",
+					"result": "Bad"
+				},
+				{
+					"name": "DensestNet",
+					"data": {
+						"type": "Tabular",
+						"size": 200000
+					},
+					"status": "Tested",
+					"result": "Bad"
+				}
+ 			]
+ 		}, 
+ 		{
+ 			 "name": "Zazu",
+ 			 "department": "EE",
+ 			 "status": "PhD",
+ 			 "publication:": "0",
+ 			 "papersRead:": "2",
+ 			 "trainedModels:": []
+ 		}, 
+ 		{
+ 			 "name": "Pumba",
+ 			 "department": "Computer Science",
+ 			 "status": "PhD",
+ 			 "publication:": "1",
+ 			 "papersRead:": "1",
+ 			 "trainedModels:": [
+				{
+					"name": "Bert",
+					"data": {
+						"type": "Tabular",
+						"size": 1000000
+					},
+					"status": "Tested",
+					"result": "Good"
+				},
+				{
+					"name": "GPT4",
+					"data": {
+						"type": "Tabular",
+						"size": 1000000
+					},
+					"status": "Trained",
+					"result": "None"
+				},
+ 			]
+ 		}, 
+ 		{
+ 			 "name": "Timon",
+ 			 "department": "SE",
+ 			 "status": "MSc",
+ 			 "publication:": "0",
+ 			 "papersRead:": "2",
+ 			 "trainedModels:": [
+				{
+					"name": "Percepetron",
+					"data": {
+						"type": "Tabular",
+						"size": 1000000
+					},
+					"status": "Trained",
+					"result": "None"
+				},
+ 			]
+ 		}, 
+ 		{
+ 			 "name": "Nala",
+ 			 "department": "Computer Science",
+ 			 "status": "PhD",
+ 			 "publication:": "1",
+ 			 "papersRead:": "1",
+ 			 "trainedModels:": [
+				{
+					"name": "YOLO9000",
+					"data": {
+						"type": "Tabular",
+						"size": 100000
+					},
+					"status": "Tested",
+					"result": "Good"
+				},
+ 			]
+ 		}
+	],
+	"conferences": [
+		{
+			"name":"ICML",
+			"date":"20000",
+			"publications": []
+		},
+		{
+			"name":"NeurIPS",
+			"date":"25000",
+			"publications": []
+		},
+		{
+			"name":"CVPR",
+			"date":"30000",
+			"publications": [
+				{
+			"name": "Bert",
+			"data": {
+				"type": "Tabular",
+				"size": 1000000
+				},
+					"status": "Tested",
+					"result": "Good"
+				}
+			]
+		},
+		{
+			"name":"ECCV",
+			"date":"40000",
+			"publications": [
+				{
+			"name": "YOLO9000",
+			"data": {
+				"type": "Tabular",
+				"size": 100000
+				},
+					"status": "Tested",
+					"result": "Good"
+				}
+			]
+		},
+		{
+			"name":"AISTATS",
+			"date":"50000",
+			"publications": []
+		}
+	],
+"cpuTimeUsed": 77095,
+"gpuTimeUsed": 63091,
+"batchesProcessed": 57822
+}
